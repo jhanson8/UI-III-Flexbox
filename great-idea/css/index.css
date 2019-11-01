@@ -82,6 +82,11 @@ nav a {
   padding: 2%;
 }
 
+a.logo {
+  margin: 5px;
+  padding: 5px;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -103,6 +108,8 @@ h1 {
 header#services {
   display: flex;
   justify-content: flex-start;
+  padding-top: .7%;
+  margin-top: 1px;
 }
 
 h2 {
@@ -224,7 +231,7 @@ button.button2 {
 a.button {
   background-color: #FFFF99;
   border-radius: 10px;
-  padding: 10px;
+  padding: 1%;
   transition: 0.3s;
 }
 
@@ -239,4 +246,37 @@ section.contact {
 
 p.serviceParagraph {
   text-align: left;
+}
+
+.boxs {
+  width: auto;
+  height: auto;
+  background-color: #D3D3D3;
+  border: solid black 1px;
+  padding: 5%;
+}
+
+.serviceSection {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid black 1px;
+  margin: 3%;
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+.serviceButton {
+  border: 1px solid black;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: .6%;
+  padding-bottom: .6%;
+  background-color: #aec6cf;
+}
+
+section#serviceTwo {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+  padding: 1%;
 }
